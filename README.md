@@ -1,5 +1,8 @@
 # Funky Quick with WordPress and Loading Sticky Posts via AJAX
 
+## The Problem
+WordPress will not load Sticky Posts at the top (per default functionality) when loading posts via AJAX
+
 ## Description
 
 A while back, I was writing out functionality for a client who wanted to load blog posts via AJAX. This is a very simple procedure, just hook up *wp_ajax* to your desired function and make sure your javascript defines this action.
